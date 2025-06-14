@@ -1,7 +1,7 @@
 defmodule Eternal.SupervisorTest do
-	use ExUnit.Case
+  use ExUnit.Case
 
-	alias Eternal.Supervisor
+  alias Eternal.Supervisor
 
   describe "start_link/3" do
     test "ensure clashes are detected" do
